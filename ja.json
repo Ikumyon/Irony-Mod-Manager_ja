@@ -1,0 +1,589 @@
+﻿{
+    // Do NOT Translate anything in curly ({}) braces inside strings. These are used for formatting.
+    "App": {
+        "FontFamily": "Noto Sans", // Do not translate this, this is the font used by this locale
+        "SupportedNameBlock": "", // Leave empty for latin alphabets. Reference here: https://docs.microsoft.com/en-us/dotnet/standard/base-types/character-classes-in-regular-expressions#supported-named-blocks
+        "Title": "Irony Modマネージャー: v{AppVersion}",
+        "BackgroundOperationMessage": "バックグラウンド処理が行われているため、しばらくお待ちください。完了次第、アプリは終了します...",
+        "WaitBackgroundOperationMessage": "バックグランド処理中ですので、しばらくお待ちください。",
+        "Actions": {
+            "Name": "活動内容",
+            "Wiki": "Wiki",
+            "Logs": "ログ",
+            "ErrorLog": "Error.log",
+            "Close": "閉じる",
+            "DLC": "DLC"
+        }
+    },
+    "FatalError": {
+        "Message": "処理されないエラーが発生しました。アプリは自動的に終了します。",
+        "MessageWithLastError": "未処理のエラーが発生しました。この情報を元にバグレポートをお願いします:{NewLine}{NewLine}{Message}",
+        "Title": "エラー",
+        "Header": "致命的なエラー"
+    },
+    "SavingError": {
+        "Title": "保存時のエラー",
+        "Message": "何かがIronyのMODファイルへの書き込みをロックしているようです。GitHubのissue trackerで報告し、エラーログを投稿してください。"
+    },
+    "UnableToWriteError": {
+        "Title": "アプリケーションがブロックされました",
+        "Message": "アプリケーションがアンチウイルスまたはパーミッションによってブロックされているようで、ユーザードキュメント・ディレクトリに書き込むことができません:{NewLine}{Paths}"
+    },
+    "InvalidModsDetected": {
+        "Title": "無効なMODが検出されました",
+        "Message": "以下のMODの場所は、無効なアーカイブまたはロックされたファイルのために解析できませんでした:{NewLine}{Mods}"
+    },
+    "Prompt": {
+        "OK": "OK",
+        "Yes": "はい",
+        "No": "いいえ",
+        "Confirm": "確認",
+        "Cancel": "中止"
+    },
+    "FileDialog": {
+        "FileName": "ファイル名",
+        "ShowHiddenFiles": "隠しファイルを表示",
+        "Volume": "{Size}容量",
+        "OK": "OK",
+        "Cancel": "中止",
+        "Name": "名前",
+        "DateModified": "更新日",
+        "Type": "属性",
+        "Size": "容量",
+        "Folders": {
+            "Downloads": "ダウンロード",
+            "Desktop": "デスクトップ",
+            "Documents": "ドキュメント",
+            "Music": "ミュージック",
+            "Videos": "ビデオ",
+            "Pictures": "ピクチャー"
+        }
+    },
+    "TextBox": {
+        "Copy": "コピー",
+        "Cut": "切断",
+        "Paste": "貼り付け",
+        "SelectAll": "全てを選択"
+    },
+    "Languages": {
+        "Name": "言語"
+    },
+    "Themes": {
+        "Name": "テーマ",
+        "Light": "ライト",
+        "Dark": "ダーク",
+        "FluentLight": "Fluentライト",
+        "FluentDark": "Fluentダーク",
+        "MaterialDark": "Materialダーク",
+        "MaterialLight": "Materialライト",
+        "Restart_Title": "再起動が必要",
+        "Restart_Header": "アプリの再起動が必要",
+        "Restart_Message": "新しいテーマを正しく適用するためには、アプリを再起動する必要があります。アプリを再起動しますか？"
+    },
+    "NotificationPosition": {
+        "BottomRight": "右下",
+        "BottomLeft": "左下",
+        "TopRight": "右上",
+        "TopLeft": "左上"
+    },
+    "Games": {
+        "Name": "ゲーム",
+        "Stellaris": "Stellaris",
+        "EuropaUniversalisIV": "Europa Universalis IV",
+        "HeartsofIronIV": "Hearts of Iron IV",
+        "ImperatorRome": "Imperator Rome",
+        "CrusaderKings3": "Crusader Kings III"
+    },
+    "Installed_Mods": {
+        "Name": "インストールされているMod",
+        "Filter": "Modのフィルター",
+        "Selected": "選択された",
+        "Mod_Name": "Mod名",
+        "Supported_Version": "サポート中のバージョン",
+        "LoadingMods": "MODデータを読み込んでいる間、お待ちください...",
+        "RefreshingModList": "MODリストが更新されるまで、しばらくお待ちください...",
+        "InvalidMods": {
+            "Title": "無効なMODが検出された",
+            "Message": "以下のMODが不足しています:{NewLine}{Mods}.{NewLine}{NewLine}descriptorsを削除しますか？"
+        }
+    },
+    "Collection_Mods": {
+        "Name": "コレクションMOD",
+        "Remove": "-",
+        "Create": "+",
+        "OK": "OK",
+        "Cancel": "キャンセル",
+        "Watermark": "新しいコレクション名を入力",
+        "Delete_Title": "コレクションを削除しますか？",
+        "Delete_Header": "コレクション削除の確認",
+        "Delete_Message": "本当に{CollectionName}コレクションを削除してよいのでしょうか？",
+        "Deleting_Message": "MODコレクションを削除している間、お待ちください。",
+        "Export": "書き出し",
+        "Import": "読み込み",
+        "Export_Dialog_Title": "コレクションを書き出し",
+        "Import_Dialog_Title": "コレクションを読み込み",
+        "Overlay_Exporting_Message": "MODコレクションを書き出ししている間、お待ちください...",
+        "Overlay_Importing_Message": "MODコレクションを読み込みしている間、お待ちください...",
+        "Overlay_Import_Export_Progress": "{PercentDone}",
+        "Filter": "MOD検索",
+        "Selected": "選択された",
+        "Mod_Name": "Mod名",
+        "Order": "順",
+        "Rename": "名前変更",
+        "Duplicate": "複製",
+        "Overlay_Rename_Message": "名前の変更操作を行う間、お待ちください...",
+        "Overlay_Duplicate_Message": "重複処理を行うため、しばらくお待ちください...",
+        "ExportToClipboard": "コレクションをクリップボードにコピーする",
+        "DeleteMerge": {
+            "DeleteTitle": "結合されたMODを削除しますか？",
+            "DeleteHeader": "結合MOD削除の確認",
+            "DeleteMessage": "結合されたMODの存在が検出されましたが、それも削除しますか？"
+        },
+        "ImportFromClipboard": {
+            "Title": "クリップボードからMODの順番を取り込む",
+            "PromptTitle": "Mod順を上書きしますか？",
+            "PromptMessage": "これにより、MODコレクションのMODの順番とMODの選択が上書きされます。進む？"
+        },
+        "FileHash": {
+            "ExportCollection": "コレクションハッシュの書き出し",
+            "ExportGame": "ゲームハッシュの書き出し",
+            "Import": "ハッシュの検証",
+            "DialogTitleExport": "レポートの書き出し先を選択",
+            "DialogTitleImport": "読み込みするjsonレポートを選択",
+            "ExportOverlay": "書き出し中、しばらくお待ちください...",
+            "ImportOverlay": "検証中、お待ちください...",
+            "ProgressExport": "{Progress}",
+            "ProgressImport": "手順{Count}/{TotalCount}: {Progress}",
+            "Export": "書き出し",
+            "Close": "閉じる"
+        },
+        "JumpOnDragAndDrop": {
+            "Title": "自動焦点: {State}",
+            "On": "有効",
+            "Off": "無効"
+        },
+        "ImportPrompt": {
+            "Title": "コレクションが存在する",
+            "Message": "コレクションはすでに存在し、上書きされますが、処理を続けますか？"
+        },
+        "ImportNonExistingMods": {
+            "Title": "既存のMODはありません",
+            "Message": "以下のMODが不足しているようで、読み込みできませんでした:{NewLine}{Mods}"
+        },
+        "ImportOther": {
+            "Title": "...",
+            "Paradoxos": "Paradoxから読み込み",
+            "Paradox": "ゲームからの読み込み",
+            "ParadoxLauncher": "Paradox Launcherから読み込みする",
+            "ParadoxLauncherBeta": "Paradox Launcher Betaからの読み込み",
+            "ParadoxLauncherJson": "Paradox Launcher Jsonから読み込みする。",
+            "Close": "閉じる"
+        },
+        "ExportOther": {
+            "Title": "...",
+            "OrderOnly": "書き出した順番のみ",
+            "WholeCollection": "コレクションを丸ごと書き出し",
+            "ParadoxLauncherJson": "Paradox Launcher Jsonへの書き出し (<2021.10)",
+            "ParadoxLauncherJson202110": "Paradox Launcher Jsonへの書き出し (>=2021.10)",
+            "Close": "閉じる"
+        },
+        "MergeCollection": {
+            "Name": "結合",
+            "MergedCollectionPrefix": "(Merged)", // It's used in path generation so should not be translated (depending on the type of language)
+            "MergeCompressModPrefix": "(Merged {Name})", // It's used in path generation so should not be translated (depending on the type of language)
+            "Overlay_Progress": "手順 {Count}/{TotalCount}: {PercentDone}",
+            "DiskInfoOverlay": "ディスクの空き容量を確認中...",
+            "Options": {
+                "Title": "モード選択",
+                "Basic": "通常",
+                "Compress": "圧縮",
+                "Close": "閉じる"
+            },
+            "Basic": {
+                "Overlay_Gathering_Mod_Info": "MOD情報を収集するため、しばらくお待ちください...",
+                "Overlay_Writing_Files": "MODコレクションを結合している間、お待ちください..."
+            },
+            "Compress": {
+                "Overlay_Gathering_Mod_Info": "MOD情報を収集するため、しばらくお待ちください...",
+                "Overlay_Compressing_Files": "MODコレクションを結合している間、お待ちください..."
+            },
+            "OverwritePrompt": {
+                "Title": "既存のコレクションを上書きしますか？",
+                "Message": "指定された名前の結合されたコレクションはすでに存在しています。それを上書きしますか？"
+            }
+        },
+        "PatchMod": {
+            "Title": "パッチMOD: {Status}",
+            "Enabled": "有効",
+            "Disabled": "無効",
+            "NotAvailable": "利用不可",
+            "DeletePrompt": {
+                "Title": "削除の確認",
+                "Message": "本当にパッチMODを削除していいのでしょうか？"
+            },
+            "Actions": {
+                "Enable": "有効",
+                "Disable": "無効",
+                "Delete": "削除",
+                "Close": "閉じる"
+            }
+        }
+    },
+    "Mod_Actions": {
+        "Apply": "適用",
+        "Overlay_Apply_Message": "MODコレクションを適用中、しばらくお待ちください...",
+        "ConflictSolver": {
+            "Conflict": "競合ソルバー",
+            "Overlay_Conflict_Solver_Indexing_Game": "ゲーム定義のインデックス作成中につきお待ちください...",
+            "Overlay_Conflict_Solver_Loading_Game_Definitions": "ゲーム定義の読み込み中、しばらくお待ちください...",
+            "Overlay_Conflict_Solver_Loading_Definitions": "MODの定義を読み込んでいる間、お待ちください...",
+            "Overlay_Conflict_Solver_Analyzing_Conflicts": "競合の定義を解析している間、お待ちください...",
+            "Overlay_Conflict_Solver_Analyzing_Resolved_Conflicts": "定義が解決されるまでお待ちください。",
+            "Overlay_Conflict_Solver_Replacing_Definitions": "定義を置き換える間、お待ちください。",
+            "Overlay_Conflict_Solver_Progress": "手順 {Count}/{TotalCount}: {PercentDone}",
+            "FirstUsePrompt": {
+                "Title": "注意事項",
+                "Message": "競合ソルバーは、気の弱い人には向かない。コードのパッチの知識と経験が必要です。小さなMODコレクションのユーザーはこれを無視すべきです。大きなMODコレクションのユーザーは、MODコレクションを切り詰めるか、コードのパッチを研究することを検討すべきです。このまま進めてもサポートは受けられません。"
+            },
+            "GameExecutableNotSetPrompt": {
+                "Title": "ゲーム実行ファイルが設定されていない",
+                "Message": "オプションでゲームの実行形式が設定されていない。このMODコレクションは、以前はゲームファイルを解析に含んでいました。競合解決機はゲームファイルを解析することができず、一部の解像度がリセットされる可能性があります。続行しますか？"
+            }
+        },
+        "LaunchGame": {
+            "Launch": "ゲームを起動",
+            "Resume": "ゲームを再開",
+            "Overlay": "ゲーム起動中、お待ちください。",
+            "LaunchError": {
+                "Title": "ゲームを起動できない",
+                "Message": "ゲームの起動に失敗しました。"
+            },
+            "NotSet": {
+                "Title": "ゲームがありません",
+                "Message": "ゲームが自動的に検出されなかったため、オプションウィンドウを使用して実行可能なパスを手動で設定してください。"
+            }
+        }
+    },
+    "Conflict_Solver": {
+        "Back": "戻る",
+        "ConflictedObjects": "競合されたオブジェクト",
+        "LeftSide": "左側",
+        "RightSide": "右側",
+        "BinaryFile": "バイナリコンテンツ",
+        "ImageInfo": "幅: {Width} 高さ: {Height}",
+        "TakeLeft": "左へ",
+        "TakeRight": "右へ",
+        "OK": "OK",
+        "Cancel": "キャンセル",
+        "Resolve": "解決",
+        "Ignore": "無視",
+        "IgnoreRules": "ルールを無視",
+        "OverlayResolve": "競合を解決する間、お待ちください...",
+        "NextConflict": "次の競合",
+        "PrevConflict": "前の競合",
+        "ConflictCount": "競合回数: {Count}",
+        "PriorityReason": {
+            "FIOS": "(FIOS)",
+            "LIOS": "(LIOS)",
+            "Order": "(ロード順)",
+            "Override": "(上書き)"
+        },
+        "InvalidConflicts": {
+            "Name": "無効",
+            "Error": "エラー行: {Line} 列: {Column} ファイル: {File}.{NewLine}このエラーをMODの作者に報告してください: {ModName}.{NewLine}{NewLine}エラーメッセージの内容:{NewLine}{NewLine}{Message}",
+            "ErrorNoLine": "ファイルでのエラー: {File}.{NewLine}このエラーをMODの作者に報告してください: {ModName}.{NewLine}{NewLine}エラーメッセージの内容:{NewLine}{NewLine}{Message}",
+            "ContextMenu": {
+                "OpenFile": "ファイルを開く",
+                "OpenDirectory": "ディレクトリを開く",
+                "CustomPatch": "カスタムパッチにコピーする"
+            }
+        },
+        "CompareSelectorContextMenu": {
+            "OpenFile": "ファイルを開く",
+            "OpenDirectory": "ディレクトリを開く"
+        },
+        "ContextMenu": {
+            "CopyAll": "全てコピー",
+            "CopyThis": "コピーする",
+            "CopyThisAfterLine": "行の後にこれをコピーする",
+            "CopyThisBeforeLine": "行の前にコピーする",
+            "MoveUp": "上へ移動",
+            "MoveDown": "下に移動",
+            "Edit": "編集",
+            "CopyText": "テキストをコピー",
+            "Delete": "削除",
+            "Undo": "元に戻す",
+            "Redo": "やり直し",
+            "Editor": "外部結合"
+        },
+        "EditorContextMenu": {
+            "Copy": "コピー",
+            "Cut": "切断",
+            "Delete": "削除",
+            "Paste": "貼り付け",
+            "Undo": "元に戻す",
+            "Redo": "やり直し",
+            "SelectAll": "全て選択"
+        },
+        "Modes": {
+            "Title": "モード選択",
+            "Default": "デフォルト",
+            "Advanced": "高度",
+            "Analyze": "分析のみ",
+            "Close": "閉じる"
+        },
+        "ModFilter": {
+            "Title": "Modフィルター",
+            "IgnoreGameConflicts": "ゲームの競合を無視する",
+            "ShowSelfConflicts": "自己競合を表示する",
+            "ShowResetConflicts": "リセットされた競合のみ表示",
+            "Close": "閉じる"
+        },
+        "ResetConflicts": {
+            "Title": "競合を解消する",
+            "Resolved": "解決済み",
+            "Ignored": "無視",
+            "Custom": "カスタム",
+            "Close": "閉じる",
+            "Reset": "リセット",
+            "Overlay": "競合を解消するまでしばらくお待ちください..."
+        },
+        "DBSearch": {
+            "Title": "データベース検索",
+            "Watermark": "検索語を入力してください。",
+            "Close": "閉じる",
+            "Clear": "X"
+        },
+        "CustomPatch": {
+            "Title": "カスタムパッチ",
+            "Load": "ロード",
+            "Path": "パス",
+            "Save": "保存",
+            "Close": "閉じる"
+        },
+        "Editor": {
+            "Title": "外部結合",
+            "Message": "外部結合に問題がなければ、確定を押す。"
+        },
+        "ResolutionSaveError": {
+            "Title": "仮想定義の検証に失敗しました",
+            "MessageLine": "仮想定義は競合を解決するために使用することができませんでした。仮想定義の検証に失敗しました。{NewLine}{NewLine}{ErrorMessage}{NewLine}エラー行: {Line} 列: {Column}",
+            "MessageNoLine": "仮想定義は競合を解決するために使用することができませんでした。仮想定義の検証に失敗しました。{NewLine}{NewLine}{ErrorMessage}"
+        },
+        "BracketMismatchError": {
+            "Message": "括弧数の不一致!括弧を開く: {OpenBracketCount} Close Bracket: {CloseBracketCount}"
+        },
+        "ResetWarning": {
+            "Title": "競合解消",
+            "AnalyzeModeAll": "MODの変更に伴い、競合ソルバーを実行すると、一部の競合がリセットされます。これらは解決済みの競合で、リセットされます:{NewLine}{NewLine}{ListOfConflictsResolved}{NewLine}これらは無視される競合であり、リセットされる:{NewLine}{NewLine}{ListOfConflictsIgnored}",
+            "AnalyzeModeResolvedOnly": "MODの変更に伴い、競合ソルバーを実行すると、一部の競合がリセットされます。これらは解決済みの競合で、リセットされます:{NewLine}{NewLine}{ListOfConflictsResolved}",
+            "AnalyzeModeIgnoredOnly": "MODの変更により競合ソルバーを実行すると、いくつかの競合がリセットされます。これらはリセットされる無視される競合です:{NewLine}{NewLine}{ListOfConflictsIgnored}",
+            "RegularModeAll": "MODの変更に伴い、いくつかの競合がリセットされました。これらはリセットされ解決された競合です:{NewLine}{NewLine}{ListOfConflictsResolved}{NewLine}These were reset ignored conflicts:{NewLine}{NewLine}{ListOfConflictsIgnored}",
+            "RegularModeResolvedOnly": "MODの変更に伴い、いくつかの競合がリセットされました。これらはリセットされ解決された競合です:{NewLine}{NewLine}{ListOfConflictsResolved}",
+            "RegularModeIgnoredOnly": "MODの変更に伴い、いくつかの競合がリセットされました。これらはリセットされ、無視された競合です:{NewLine}{NewLine}{ListOfConflictsIgnored}",
+            "ListOfConflictsFormat": "{ParentDirectory}: {Name}"
+        }
+    },
+    "ConflictIgnore": {
+        "Save": "保存",
+        "Cancel": "キャンセル",
+        "Watermark": "コメントには#を使用します。改行すると新規則になります。"
+    },
+    "Options": {
+        "Name": "オプション",
+        "Close": "閉じる",
+        "NavigateTo": "...",
+        "Reset": "X",
+        "AppOptions": {
+            "Title": "アプリケーションオプション",
+            "NotificationPosition": "通知位置"
+        },
+        "Editor": {
+            "Title": "外部エディタオプション",
+            "EditorExecutable": "エディタ実行ファイル",
+            "EditorArgs": "エディタの引数",
+            "EditorArgsPlaceholder": "例:左ファイル:{Left} 右ファイル:{Right}"
+        },
+        "Game": {
+            "Title": "ゲームオプション",
+            "GameExecutable": "ゲーム実行ファイル",
+            "UserDirectory": "データディレクトリ",
+            "GameArgs": "ゲーム起動オプション",
+            "RefreshMods": "起動前にDescriptorsをリフレッシュ",
+            "CloseAfterLaunch": "ゲーム起動後に閉じる",
+            "AutoConfigure": "すべてを設定する...",
+            "CustomModPath": "カスタムMODディレクトリ"
+        },
+        "Updates": {
+            "Title": "更新オプション",
+            "UpdateInfoTitle": "リリース情報の更新",
+            "AutoUpdates": "起動時にアップデートを確認する",
+            "CheckPrerelease": "プレリリースバージョンへのアップデート",
+            "CheckForUpdates": "アップデートを確認する",
+            "Install": "アップデートのインストール",
+            "Version": "バージョン: {Version}",
+            "Overlay": {
+                "UpdateDownloading": "アップデートのダウンロード...",
+                "UpdateDownloadProgress": "{Progress}",
+                "UpdateInstalling": "アップデートを解凍し、インストーラを実行する準備をしています..."
+            },
+            "Errors": {
+                "DownloadErrorTitle": "更新エラー",
+                "DownloadErrorMessage": "アップデートのダウンロード中にエラーが発生しました。詳しくはエラーログをご覧ください。"
+            },
+            "AutoUpdatePrompts": {
+                "Title": "自動的にアップデートを確認する",
+                "Message": "Ironyでは、起動時にアップデートを確認する許可を得ています。Ironyのアップデートを自動的に通知することを希望しますか？"
+            },
+            "UpdateNotification": {
+                "Title": "アップデートの検出",
+                "Message": "オプション画面でアップデートの詳細を確認するか、このメッセージをクリックしてください。"
+            }
+        },
+        "Dialog": {
+            "ExeTitle": "ゲームの実行ファイルを検索する",
+            "GameRootTitle": "ゲームのルートディレクトリを探す",
+            "UserDirTitle": "ゲームデータディレクトリの検索",
+            "EditorTitle": "エディタ実行ファイルの検索",
+            "CustomModPathTitle": "カスタムMODディレクトリの検索"
+        },
+        "Prompts": {
+            "CustomModDirectory": {
+                "Title": "空ではない",
+                "Message": "カスタムMODのディレクトリは空ではありません。今それを変更すると、いくつかのMODを失う可能性があります。本当に変更するのですか？"
+            }
+        }
+    },
+    "Notifications": {
+        "CollectionCreated": {
+            "Title": "作成されたコレクション",
+            "Message": "{CollectionName}が作成されました。"
+        },
+        "CollectionDeleted": {
+            "Title": "削除されたコレクション",
+            "Message": "{CollectionName} は削除されました。"
+        },
+        "CollectionAndModDeleted": {
+            "Title": "コレクションを結合されたMODの削除",
+            "Message": "{CollectionName}と結合されたMODは削除されました。"
+        },
+        "CollectionExists": {
+            "Title": "コレクションが存在する",
+            "Message": "{CollectionName}はすでに存在しています。"
+        },
+        "CollectionExported": {
+            "Title": "コレクション書き出し",
+            "Message": "{CollectionName} が書き出しされました。"
+        },
+        "CollectionImported": {
+            "Title": "コレクション読み込み",
+            "Message": "{CollectionName} が読み込みされました。"
+        },
+        "CollectionApplied": {
+            "Title": "コレクションを適用",
+            "Message": "{CollectionName} が適用されました。"
+        },
+        "CollectionNotApplied": {
+            "Title": "コレクションが未適用",
+            "Message": "{CollectionName} は適用されていません。"
+        },
+        "DescriptorsRefreshed": {
+            "Title": "Descriptorsのリフレッシュ",
+            "Message": "Descriptorsを更新しました。"
+        },
+        "DescriptorsLocked": {
+            "Title": "Descriptorsのロック",
+            "Message": "Descriptorsはロックされました。"
+        },
+        "DescriptorsUnlocked": {
+            "Title": "Descriptorsのロック解除",
+            "Message": "Descriptorsーのロックが解除されました。"
+        },
+        "NewDescriptorsChecked": {
+            "Title": "新しいMODのチェック",
+            "Message": "新しいMODのチェックが完了しました。"
+        },
+        "CollectionRenamed": {
+            "Title": "コレクション名変更",
+            "Message": "コレクション名を変更しました。"
+        },
+        "CollectionDuplicated": {
+            "Title": "コレクション複製",
+            "Message": "コレクションは重複しています。"
+        },
+        "CollectionMerged": {
+            "Title": "コレクション結合",
+            "Message": "コレクションは結合されました。"
+        },
+        "ConflictSolverUpdate": {
+            "Title": "競合ソルバーのアップデート",
+            "Message": "ロード順や一部のMODが更新されました。競合がない場合は、見て回って戻ってください。いくつかの自動修正が適用されています。"
+        },
+        "NoUpdatesAvailable": {
+            "Title": "更新なし",
+            "Message": "アップデートがないようです。"
+        },
+        "ReportExported": {
+            "Title": "レポートの書き出し",
+            "Message": "レポートが書き出されました。"
+        },
+        "ReportValid": {
+            "Title": "ファイルハッシュ一致",
+            "Message": "すべてのファイルのハッシュが一致するようです。"
+        },
+        "CustomPatchRerunConflictSolver": {
+            "Title": "競合ソルバーリフレッシュ",
+            "Message": "新しく追加されたカスタムパッチを考慮するために、競合ソルバーをリフレッシュする必要があります。競合ソルバーを再実行してください。"
+        },
+        "CollectionMergeNotEnoughSpace": {
+            "Title": "空き容量が足りない",
+            "Message": "結合操作を実行するための十分な空き容量がありません。"
+        }
+    },
+    "Mod_App_Actions": {
+        "OpenInSteam": "Steamで起動",
+        "Open": "Mod Urlを開く",
+        "Copy": "Mod Urlをコピー",
+        "OpenInAssociatedApp": "Modフォルダ/ファイルを開く"
+    },
+    "Descriptor_Actions": {
+        "CheckNew": "新しいMODの確認",
+        "Delete": "削除と再読み込み",
+        "Delete_All": "すべて削除して再読み込み",
+        "Lock": "ロック",
+        "Lock_All": "全てをロック",
+        "Unlock": "ロック解除",
+        "Unlock_All": "全てをロック解除"
+    },
+    "Achievements": {
+        "AchievementCompatible": "Modは実績に対応しています。",
+        "NotAchievementCompatible": "Modは実績に対応していません。"
+    },
+    "ModSource": {
+        "Paradox": "ModのソースはParadox Interactiveです。",
+        "Steam": "ModのソースはSteamです。",
+        "Local": "Modのソースはローカルです。"
+    },
+    "Sorting": {
+        "Sort_A_Z": "↑",
+        "Sort_Z_A": "↓"
+    },
+    "Filter": {
+        "Clear": "X",
+        "UpArrow": "▲",
+        "DownArrow": "▼"
+    },
+    "FilterCommands": {
+        "Achievements": "実績",
+        "Source": "ソース",
+        "Version": "バージョン",
+        "Selected": "selected",
+        "Yes": "はい",
+        "No": "いいえ",
+        "True": "真",
+        "False": "偽",
+        "Steam": "steam",
+        "Paradox": "paradox",
+        "Local": "ローカル"
+    }
+}
